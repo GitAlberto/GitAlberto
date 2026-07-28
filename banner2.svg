@@ -1,0 +1,58 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="300" fill="#0d1117"/>
+
+  <!-- trajectory (dashed, subtle) -->
+  <line x1="1080" y1="280" x2="1080" y2="20" stroke="#30363d" stroke-width="1.5" stroke-dasharray="4 6"/>
+
+  <!-- rocket path (bottom to top, loops on repeat) -->
+  <path id="rocketpath" d="M 1080 280 L 1080 20" fill="none"/>
+
+  <g>
+    <animateMotion dur="3.5s" repeatCount="indefinite">
+      <mpath href="#rocketpath"/>
+    </animateMotion>
+    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.88;0.92;1" dur="3.5s" repeatCount="indefinite"/>
+
+    <!-- flame -->
+    <ellipse cx="0" cy="16" rx="4" ry="10" fill="#00c896">
+      <animate attributeName="ry" values="10;16;10" dur="0.25s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="0.25s" repeatCount="indefinite"/>
+    </ellipse>
+
+    <!-- rocket body -->
+    <path d="M 0 -22 C 7 -14 7 8 7 8 L -7 8 C -7 8 -7 -14 0 -22 Z" fill="#f0f6fc"/>
+    <!-- fins -->
+    <path d="M -7 4 L -15 14 L -7 12 Z" fill="#8b949e"/>
+    <path d="M 7 4 L 15 14 L 7 12 Z" fill="#8b949e"/>
+    <!-- window -->
+    <circle cx="0" cy="-6" r="3" fill="#00c896"/>
+  </g>
+
+  <!-- headline -->
+  <text x="60" y="95" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#f0f6fc">
+    Hi, I'm
+  </text>
+  <text x="60" y="150" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700" fill="#00c896">
+    Alberto Bonguele
+  </text>
+
+  <!-- rotating role subtitle -->
+  <text x="60" y="195" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#8b949e">
+    <tspan opacity="0">
+      <animate attributeName="opacity" values="0;1;1;0;0;0;0;0;0" keyTimes="0;0.02;0.3;0.32;0.34;0.66;0.68;0.98;1" dur="9s" repeatCount="indefinite"/>
+      Data Engineer
+    </tspan>
+  </text>
+  <text x="60" y="195" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#8b949e">
+    <tspan opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" keyTimes="0;0.02;0.3;0.32;0.34;0.66;0.68;0.98;1" dur="9s" repeatCount="indefinite"/>
+      Référent Apache NiFi
+    </tspan>
+  </text>
+  <text x="60" y="195" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="400" fill="#8b949e">
+    <tspan opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.02;0.3;0.32;0.34;0.66;0.68;0.98;1" dur="9s" repeatCount="indefinite"/>
+      En recherche d'alternance — sept. 2026
+    </tspan>
+  </text>
+</svg>
