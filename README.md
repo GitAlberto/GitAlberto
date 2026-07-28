@@ -1,4 +1,4 @@
-![Bannière](./assets/banner.svg)
+![Bannière](./banner.svg)
 
 ## 👋 Alberto Ackhilas BONGUELE
 
