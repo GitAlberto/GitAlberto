@@ -1,6 +1,5 @@
-![Bannière](./assets/banner (1).svg)
 
-## 👋 Alberto Ackhilas Bonguele
+## 👋 Alberto Ackhilas BONGUELE
 
 **Le kebab coûtait 3,50€ en 2019. Il en coûte 7€ en 2026.**
 Je construis des pipelines de données pour comprendre pourquoi — et je fais la même chose 
