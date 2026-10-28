@@ -2,14 +2,19 @@
 
 ## 👋 Alberto Ackhilas BONGUELE
 
-**Le kebab coûtait 3,50€ en 2019. Il en coûte 7€ en 2026.**
-Je construis des pipelines de données pour comprendre pourquoi, et c'est aussi mon métier au quotidien.
+Apprenti Data Engineer AWS chez LineUP7 (Groupe La Poste), en parallèle du Mastère Data Engineering & IA à l'EFREI Paris. Je construis des pipelines de données de bout en bout, de l'ingestion à la visualisation.
 
-🔭 Apprenti Data Engineer AWS chez LineUP7 (Groupe La Poste), en parallèle du Mastère Data Engineering & IA à l'EFREI Paris. Passé par l'ECE Paris (Bachelor 3 Data Engineering).
+Mon parcours n'est pas linéaire. À la HAS, en deux ans, je suis passé de stagiaire développeur web à apprenti chef de projet BI/Data, puis Data Engineer, jusqu'à devenir référent Apache NiFi de ma direction. J'ai aussi validé le Titre Professionnel Développeur en intelligence artificielle (RNCP niveau 6) et suivi un Bachelor 3 Data Engineering à l'ECE Paris.
 
-## Ce que j'ai fait avant
+🔭 Mon objectif : devenir Lead Data Engineer, puis un jour travailler en freelance et transmettre. Ce dernier point n'est pas théorique : j'ai déjà formé plus de 40 apprenants au Congo, et j'ai l'intention d'enseigner le data engineering.
 
-À la HAS, pendant deux ans, de développeur web à Data Engineer, puis référent Apache NiFi de ma direction. J'y ai conçu et refactorisé des pipelines NiFi : architectures asynchrones (CRON + event-driven), tolérance aux pannes, routage conditionnel. Dernier chantier : la refonte complète du pipeline Calista (ingestion Pega BIX vers PostgreSQL).
+## Ce que j'ai fait à la HAS
+
+J'y ai conçu et refactorisé des pipelines NiFi : architectures asynchrones (CRON + event-driven), tolérance aux pannes, routage conditionnel.
+- Refonte du pipeline Calista (ingestion Pega BIX vers PostgreSQL) : de 53 à environ 20 processeurs, avec un seul rapport HTML par exécution.
+- Mission de dump/restore PostgreSQL ramenée de 30 minutes à moins d'une minute via NiFi.
+- Tableau de bord Power BI de suivi d'adoption de Microsoft Copilot, avec rapport de 30 pages.
+
 À côté, je monte des projets personnels de bout en bout : ingestion multi-sources, API, visualisation.
 
 ## Stack
